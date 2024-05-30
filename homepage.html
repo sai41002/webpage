@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        p{
+            font-size: 12px;
+        }
+        body{
+            font-family:cursive
+        }
+        #container{
+            background-color: #acabac;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            gap: 10px;
+        }
+       
+        h1{
+            color: white;
+            font-weight: bolder;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .nav-bar{
+            height: 10vh;
+            width: 69vw;
+           background-color: #fe80fe;
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        button{
+            background-color: black;
+            color: white;
+            padding: 4px;
+        }
+         input{
+            padding: 5px;
+         }
+
+         .body-page{
+            width: 70vw;
+            display: flex;
+            row-gap: 10px;
+               
+               padding: 10px;
+         }
+         .content-main{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+         }
+         .sidebar{
+           margin-left: 15px;
+           padding: 15px;
+            background-color: #fe80fe;
+         }
+         h2{
+            padding: 10px;
+         }
+         li{
+            font-size: 10px;
+            padding: 8px;
+            color: blue;
+         }
+         .footer{
+            margin-top: 5px;
+            background-color: white;
+            padding: 15px;
+         }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="main-content">
+            <h1>Header</h1>
+            <div class="nav-bar">
+                <a href="home">Home</a>
+                <a href="">Our Team</a>
+                <a href="">Projects</a>
+                <a href="">Contact</a>
+                <div>
+                    <input type="text" placeholder="search query">
+                    <button>Search me</button>
+                </div>
+            
+        </div>
+    <div class="body-page">
+        <div class="content-main">
+            <h2 style="text-align: center; margin-top: 0px;">Article heading</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia eos nesciunt veritatis iure, magnam repudiandae quae sed laboriosam harum rem doloribus ratione id aliquam inventore temporibus quasi nemo hic esse.</p>
+            <div class="section-1">
+                <h2>Sub section</h2>
+           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vel rerum doloribus quo illum corrupti qui officiis at animi, ad architecto facilis accusantium repellat eum quisquam dolore aperiam libero ea.
+        </p> </div>
+        <div class="section-2">
+         <h2>Sub section</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, doloribus nam mollitia nobis quibusdam facilis quos? Veniam reprehenderit enim minima corrupti harum aliquid sint debitis, similique, placeat, nemo tempora exercitationem!
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sequi, asperiores vel a ratione libero rerum dicta tempore sapiente mollitia nemo, dolorum, beatae velit. Ipsum soluta maxime sunt eligendi quae.</p>
+            </div>
+        </div>
+        <div class="sidebar">
+            <H2>Related</H2>
+            <li>oh i do like to be beside the seaside</li>
+            <li>oh i do like to be beside the sea</li>
+            <li>oh i do like to be beside the seaside</li>
+            <li>oh i do not like to be beside the sea</li>
+            </div>
+
+    </div>
+    <div class="footer">
+        <p>&#64 copyright 2015 issued by nobody else</p>
+    </div>
+        </div>
+    </div>
+</body>
+</html>
